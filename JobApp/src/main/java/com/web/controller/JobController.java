@@ -16,7 +16,7 @@ public class JobController {
 
 	@Autowired
 	JobService service;
-	// welcome
+	// welcome home
 
 	@RequestMapping({ "/", "/home" })
 	public String home() {

@@ -20,7 +20,7 @@ public class JobRestController {
 
 	@Autowired
 	JobService service;
-	// welcome
+	//welcome
 
 	@GetMapping("/getjobs")
 	public List<JobPost> getJobs() {
